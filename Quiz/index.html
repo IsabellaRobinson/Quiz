@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/indexLayout.css">
+    <link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet">
+    <script src="./js/quiz.js"></script>
+
+    <title>Quiz</title>
+</head>
+<body>
+    
+    
+    <form id = "quiz" name = "quiz">
+    
+    <h1>Hvem sang dette?</h1>
+    <br><br>
+    <p class = "questions">"Kom kun nærmer' kære frue, De blir sku ikke snydt af mig"</p>
+    <input type = "radio" id = "mc" name = "question1" value = "Kim"> Kim Larsen<br>
+    <input type = "radio" id = "mc" name = "question1" value = "bdr.Olsen"> Brødrene Olsen<br>
+    <input type = "radio" id = "mc" name = "question1" value = "Sanne">Sanne Salomonsen 
+    <br><br><br>
+
+
+    <p class = "questions">"Vågner i natten"</p>
+    <input type = "radio" id = "mc" name = "question2" value = "Dodo"> Dodo and the Dodos<br>
+    <input type = "radio" id = "mc" name = "question2" value = "OneTwo"> One Two<br>
+    <input type = "radio" id = "mc" name = "question1" value = "Tøsedrengene"> Tøsedrengene
+    <br><br><br>
+    
+    <p class = "questions">"I'm a Barbie girl in a Barbie world
+        Life in plastic, it's fantastic"</p>
+    <input type = "radio" id = "mc" name = "question3" value = "Alphabeat">Alphabeat <br>
+    <input type = "radio" id = "mc" name = "question3" value = "Natasja"> Natajsa<br>
+    <input type = "radio" id = "mc" name = "question3" value = "Aqua"> Aqua<br>
+    
+    
+    <input id = "button" type = "button" value = "Send svar!" onclick = "check();">
+    
+    
+    </form>
+    
+    <div id = "after_submit">
+    <p id = "number_correct"></p>
+    <p id = "message"></p>
+    <img id = "picture">
+    </div>
+    
+</body>
+</html>
